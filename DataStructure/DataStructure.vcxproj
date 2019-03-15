@@ -153,6 +153,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="BST.h" />
     <ClInclude Include="CircLinkList.h" />
     <ClInclude Include="LinkedQueue.h" />
     <ClInclude Include="LinkList.h" />

@@ -300,3 +300,22 @@ int AkmByRecursion(int m, int n) {
  * 还有非尾递归的情况（如计算阶乘），这时每一步都要保存在栈中等待回调，当然这是可以优化为尾递归的；
  * 尾递归和非尾递归同时有（如Akm问题），这导致一部分计算要暂留在栈中等待回调（留的越少越好）；
  */
+
+size_t permutation(string str, size_t k = 0) {
+	// 全排列递归实现
+	static size_t num;
+	if (k == str.size()) {
+		cout << str << endl;
+		num++;
+	}
+	else {
+		for (size_t i = k; i < str.size(); i++) {
+			swap(str[k], str[i]);
+			permutation(str, k + 1);
+			swap(str[k], str[i]);
+		}
+	}
+	return num;
+}
+
+// 组合递归实现，，，，，有点麻烦

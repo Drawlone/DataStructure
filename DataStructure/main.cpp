@@ -4,22 +4,15 @@
 #include "pch.h"
 #include <iostream>
 #include <string>
-#include"LinkedQueue.h"
-#include"LinkStack.h"
+#include"BST.h"
 using namespace std;
+
 
 int main()
 {
-	string s;
-	while (cin >> s) {
-		if (pairCheck(s)) {
-			cout << "Correct!"<<endl;
-		}
-		else {
-			cout << "Wrong!"<<endl;
-		}
-	}
+
 	getchar();
+	return 0;
 }
 
 

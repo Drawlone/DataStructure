@@ -55,7 +55,10 @@
       <Filter>头文件\LinearList</Filter>
     </ClInclude>
     <ClInclude Include="BinaryTree.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\TreeStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="BST.h">
+      <Filter>头文件\TreeStructure</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
